@@ -6,4 +6,4 @@
 |Html|
 |Css|
 |Javascript|
-|Coindata API|
+|Coingecko API|
