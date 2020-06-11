@@ -1,2 +1,29 @@
-body{
-    background-color: darkcyan;
+*{
+    text-align: center;
+}
+
+#site_tag{
+    font-size: 20px;
+    margin-top: -20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+button{
+    margin: 3% 0;
+    border: none;
+    background-color: limegreen;
+    color: white;
+    padding: 1.5%;
+    border-radius: 30em;
+    font-size: 20px;
+    outline: none;
+    width: 20%;
+}
+
+#items{
+    margin-top: 70px;
+}
+
+.front_button{
+    margin: 3%;
+}

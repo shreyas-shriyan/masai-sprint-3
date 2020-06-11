@@ -1,0 +1,50 @@
+*{
+    text-align: center;
+}
+
+label{
+    font-size: 30px;
+}
+
+#site_tag{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+input{
+    width: 25%;
+    height: 30px;
+    border-radius: 30px;
+    margin-right: 1%;
+    font-size: 30px;
+}
+
+p{
+    margin: 1% 10%;
+    font-size: 30px;
+    padding: 0 10px;
+    text-align: justify;
+}
+
+#description_body{
+    margin-top: -120px;
+}
+
+form{
+    margin-top: 2%;
+}
+
+button{
+    border: none;
+    background-color: limegreen;
+    color: white;
+    padding: 8px;
+    border-radius: 30em;
+    font-size: 20px;
+    outline: none;
+    width: 10%;
+}
+
+.coin_image{
+    margin-top: 150px;
+}

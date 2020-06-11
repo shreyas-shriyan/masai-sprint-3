@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Coindata</title>
+        <link rel="stylesheet" href="converter_style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <a href="index.html" >
+            <img src="resources/logo.png" >
+        </a>
+
+        <hr>
+        <div id="site_tag" style="margin-top: 1%;" >All in one place to get details about cryptocurrency coins</div>
+        <hr>
+        
+        <form>
+            <label for="currency_from_value" >From :</label>
+            <input id="currency_from_value" type="Number" required placeholder="number of coins"></input>
+            
+            <select id="from_selection">
+                <!-- filled after dom manipulation -->
+            </select>
+
+            <div id="to_box" >
+                <label for="currency_to_value" >To :</label>
+                <select id="to_selection">
+                    <!-- filled after dom manipulation -->
+                </select>
+                <button type="submit">Submit</button>
+            </div>
+            
+        </form>
+
+        <div id="result_box" >
+
+        </div>
+
+        <script type="text/javascript" src="converter_script.js" ></script>
+    </body>
+</html>
