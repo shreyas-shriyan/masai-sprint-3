@@ -6,3 +6,4 @@
 |Html|
 |Css|
 |Javascript|
+|Coindata API|
